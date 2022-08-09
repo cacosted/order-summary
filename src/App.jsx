@@ -4,10 +4,11 @@ import { Body } from './components/Body'
 import { Button } from './components/Button'
 import { PriceCard } from './components/PriceCard'
 import { Heading } from './components/Heading'
+import { Container } from './components/Container'
 
 export function App () {
   return (
-    <>
+    <Container>
       <Card>
         <Hero />
         <Body>
@@ -17,6 +18,6 @@ export function App () {
           <Button text='Cancel Order' />
         </Body>
       </Card>
-    </>
+    </Container>
   )
 }
