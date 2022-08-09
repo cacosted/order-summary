@@ -5,7 +5,6 @@ import { Button } from './components/Button'
 import { PriceCard } from './components/PriceCard'
 import { Heading } from './components/Heading'
 import { Container } from './components/Container'
-
 export function App () {
   return (
     <Container>
@@ -15,7 +14,7 @@ export function App () {
           <Heading />
           <PriceCard />
           <Button text='Proceed to Payment' />
-          <Button text='Cancel Order' />
+          <Button text='Cancel Order' type='text' />
         </Body>
       </Card>
     </Container>

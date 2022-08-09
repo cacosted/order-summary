@@ -9,7 +9,7 @@ export const PriceCard = () => {
         <Title>Annual Plan</Title>
         <SubTitle>$59.99/year</SubTitle>
       </Body>
-      <Button text='Change' type='text' />
+      <Button text='Change' type='link' />
     </StyledPriceCard>
   )
 }
