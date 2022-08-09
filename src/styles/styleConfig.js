@@ -6,3 +6,9 @@ export const colors = {
   lighter: 'hsl(225, 100%, 98%)',
   white: '#fff'
 }
+
+export const weights = {
+  bolder: 900,
+  bold: 700,
+  regular: 500
+}

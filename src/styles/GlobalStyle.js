@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-
+import { colors } from './styleConfig'
 export const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Display', sans-serif;
+    color: ${colors.dark}
   }
 
   h1,p {
