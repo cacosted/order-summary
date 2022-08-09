@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     color: ${colors.dark}
   }
 
-  h1,p {
+  h1,h2,p {
     margin: 0;
   }
 

@@ -1,14 +1,15 @@
 import musicIcon from '../../assets/images/icon-music.svg'
-import { Button } from '../Button'
+import { StyledPriceCard, Body, Title, SubTitle } from './styles'
+import { Button } from '../../components/Button'
 export const PriceCard = () => {
   return (
-    <div>
+    <StyledPriceCard>
       <img src={musicIcon} alt='Music note' />
-      <div>
-        <p>Annual Plan</p>
-        <p>$59.99/year</p>
-      </div>
-      <Button text='Change' />
-    </div>
+      <Body>
+        <Title>Annual Plan</Title>
+        <SubTitle>$59.99/year</SubTitle>
+      </Body>
+      <Button text='Change' type='text' />
+    </StyledPriceCard>
   )
 }
