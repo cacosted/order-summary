@@ -1,7 +1,9 @@
+import { StyledBody } from './styles'
+
 export const Body = ({ children }) => {
   return (
-    <div>
+    <StyledBody>
       {children}
-    </div>
+    </StyledBody>
   )
 }
