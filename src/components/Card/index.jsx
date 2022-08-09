@@ -1,7 +1,9 @@
+import { StyledCard } from './styles'
+
 export const Card = ({ children }) => {
   return (
-    <article>
+    <StyledCard>
       {children}
-    </article>
+    </StyledCard>
   )
 }
