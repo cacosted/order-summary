@@ -18,11 +18,23 @@ export const MainButton = styled.button`
   width: 100%;
   box-shadow: 0px 5px 15px hsla(244.9, 74.7%, 52%, 0.43);
   margin-block-end: .8em;
-  `
+
+  &:hover,
+  &:active
+  {
+    opacity: .7;
+  }
+`
 export const TextButton = styled.button`
   ${button};
   color: ${colors.sepia};
   background-color: transparent;
+
+  &:hover,
+  &:active
+  {
+    color: ${colors.dark}
+  }
 `
 export const LinkButton = styled.a`
   ${button};
@@ -30,4 +42,11 @@ export const LinkButton = styled.a`
   text-decoration: underline;
   background-color: transparent;
   font-size: .8rem;
+
+  &:hover,
+  &:active
+  {
+    opacity: .7;
+    text-decoration: none;
+  }
 `
