@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Demo: [Demo](https://your-live-site-url.com)
+- Live Demo: [Demo](https://order-summary-cacosted.netlify.app/)
 
 ## My process
 
